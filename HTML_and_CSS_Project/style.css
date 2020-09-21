@@ -1,0 +1,149 @@
+*,
+*:before,
+*:after{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            margin:0;
+}
+
+body{
+    background: #293f50;
+    color: #648880;
+    font: 300 16px/22px "Kufam", Helvetica, Arial, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+  
+.header-nav-container, .foot-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #a9b2b9;
+}
+
+.logo{
+    border-top: 4px solid #648880;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 44px;
+    padding: 40px 0 22px 0;
+    text-transform: uppercase;
+}
+ .conf-date-and-city{
+    margin: 66px 0 22px 0;
+    text-align: right;
+}
+  .header-nav{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+
+  .nav-flex{
+      display: flex; 
+}
+
+  ul.nav-flex li{
+    margin: 0 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    line-height: 44px;
+    padding: 22px 100px 66px 100px;
+    text-align: center;
+}
+
+.content h2{
+    font-size: 36px;
+    margin-top: 25px;
+    color: #648880;
+}
+
+.content p {
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 22px;
+}
+
+.register-btn{
+    border:1px solid #fff;
+    color:#fff;
+    border-radius: 5px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+
+section.images-in-row{
+    background: #fff;
+    padding: 66px 0 44px 0;
+    margin-left: -29px;
+    margin-right: -29.5px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-width{
+    width:300px;
+    margin:0 15px;
+}
+
+.img-width img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.img-width h5{
+    color: #a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.img-width h3{
+    font-size: 20px;
+    color:#648880;
+    margin-bottom: 22px;
+    margin-top: 22px;
+}
+
+.img-width h3:hover{
+    color: #a9b2b9;
+}
+
+.img-width p{
+    margin-bottom: 22px;
+    color: #888;
+    text-align: justify;
+}
+
+footer{
+    color:#648880;
+    font-size: 14px;
+    padding-bottom: 44px;
+    padding-top: 44px;
+}
+
+small{
+    font-weight: 400;
+}
