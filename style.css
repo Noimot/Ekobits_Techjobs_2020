@@ -100,6 +100,7 @@ section.images-in-row{
     margin-right: -29.5px;
     display: flex;
     justify-content: center;
+
 }
 
 .img-width{
@@ -237,7 +238,7 @@ p a.speaker-details{
     padding: 66px 0 44px 0;
 }
 
-.table, .venue, .register-row{
+.table, div.venue, .register-row{
     width: 960px;
     margin: 0 auto;
 }
@@ -411,7 +412,7 @@ fieldset{
 }  
   
   
-register-btn{
+.register-btn{
     border:1px solid #fff;
     color:#fff;
     border-radius: 5px;
