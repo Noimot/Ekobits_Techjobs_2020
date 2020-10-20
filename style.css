@@ -442,3 +442,12 @@ fieldset{
         background: #77a198;
 }
   
+
+@media (max-width: 700px){
+    .header-nav-container{
+        background-color: gray;
+        font: 10px/px Helvetica, Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+    }
+}
