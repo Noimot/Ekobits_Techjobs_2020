@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item{
+    margin-right:30px;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+header nav div:last-child{
+    margin-top:15px;
+    height:30px;
+    width:32px;
+    border-radius: 50%;
+    background-color: rgb(245, 97, 11);
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
+
+section{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 90px 0px 20px 0px;
+}
+
+input{
+    margin: 20px 0px;
+    width: 550px;
+    height: 40px;
+    border-radius: 20px;
+    border:1px solid rgb(231, 223, 223);
+}
+
+input:hover{
+    box-shadow: 1px 1px 5px grey;
+}
+
+div button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color:rgba(236, 233, 233, 0.966) ;
+    border-radius: 2px;
+    padding:10px;
+    margin:20px 0 30px 10px;
+}
+
+.preffered-language{
+    font-size: 12px;
+    word-spacing: 2px;
+}
+.preffered-language a, .footer-nav a{
+    text-decoration: none;
+}
+
+.footer-nigeria{
+    position: absolute;
+    bottom:40px; 
+    background:rgba(236, 233, 233, 0.966) ;
+    border: 1px grey solid;
+    padding: 12px;
+    border-color: rgba(228, 226, 226, 0.966);
+}
+
+.footer-nav{
+    position: absolute;
+    bottom:0;
+    background:rgba(236, 233, 233, 0.966) ;
+    border: 1px grey solid;
+    padding: 12px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    margin-left: 10px;
+}
+
+footer{
+    width: 100vw;   
+}
+
+.footer-nav a{
+    color: black;
+}
