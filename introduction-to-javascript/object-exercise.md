@@ -3,7 +3,7 @@
 ### For each of the exercises below, assume you are starting   with the following programming object.
 
 
-` ` `
+```
     let programming = {
     languages: ["JavaScript", "Python", "Ruby"],
     isChallenging: true,
@@ -11,7 +11,7 @@
     difficulty: 8,
     jokes: "http://stackoverflow.com/questions/234075/what-is-your-best-programmer-joke"
 
-` ` `
+```
 
 1. Write the command to add the language "Go" to the end of the languages array.
  
@@ -31,25 +31,25 @@
 
     5. Using a loop, iterate through the languages array and console.log all of the languages.
 
-        ans: ` `
+        ans: ```
                 for(let language of programming.languages){
                     console.log(language);
              }
              
-             ` `
+             ```
 
     6. Using a loop, console.log all of the keys in the programming object.
 
-        ans:  ` ` 
+        ans:  ```
                 for(let programmingKeys in programming){
                     console.log(programmingKeys);
                 }
 
-                ` `
+                ```
 
     7. Using a loop, console.log all of the values in the programming object.
 
-        ans: ` `
+        ans: ```
                 for(let programmingKeys in programming){
                     console.log(programming[programmingKeys]);
                 }
