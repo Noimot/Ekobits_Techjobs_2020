@@ -21,36 +21,36 @@
 
     ans: ` programming.difficulty=8;
 
-    3. Using the delete keyword, write the command to remove the jokes key from the programming object.
+3. Using the delete keyword, write the command to remove the jokes key from the programming object.
 
         ans: ` delete programming.jokes
 
-    4. Write the command to add a new key called isFun and a value of true to the programming object.
+4. Write the command to add a new key called isFun and a value of true to the programming object.
 
         ans: ` programming.isFun=true;
 
-    5. Using a loop, iterate through the languages array and console.log all of the languages.
+5. Using a loop, iterate through the languages array and console.log all of the languages.
 
-        ans: ```
+```
                 for(let language of programming.languages){
                     console.log(language);
              }
              
-             ```
+```
 
-    6. Using a loop, console.log all of the keys in the programming object.
+6. Using a loop, console.log all of the keys in the programming object.
 
-        ans:  ```
+```
                 for(let programmingKeys in programming){
                     console.log(programmingKeys);
                 }
 
-                ```
+```
 
-    7. Using a loop, console.log all of the values in the programming object.
+ 7. Using a loop, console.log all of the values in the programming object.
 
-        ans: ```
+```
                 for(let programmingKeys in programming){
                     console.log(programming[programmingKeys]);
                 }
-            ```
+```
