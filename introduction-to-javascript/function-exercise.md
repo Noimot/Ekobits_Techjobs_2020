@@ -33,3 +33,25 @@
             })
             printDayOfTheWeek(8);
 ```
+
+4. this function takes in one parameter (an array) and returns the last value in the array. It should return undefined if the array is empty.
+
+```
+            let lastElementInArray = (arrayElements) => {
+                let lastElement = arrayElements.pop();
+                return lastElement;
+            }
+            lastElementInArray([2,7,9,0,4,5]);
+
+```
+
+5. this function takes in two parameters (both numbers). If the first is greater than the second, this function returns "First is greater". If the second number is greater than the first, the function returns "Second is greater". Otherwise the function returns "Numbers are equal"
+
+```     
+            function numberCompare(firstNum,secondNum){
+                return (firstNum>secondNum)? "first Number is greater"
+                      :(firstNum<secondNum)? "second number is greater"
+                      : "first Number is equal to second Number";
+            }
+            numberCompare(10,10);
+```
