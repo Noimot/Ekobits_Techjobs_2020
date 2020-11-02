@@ -443,7 +443,7 @@ fieldset{
 }
   
 
-@media (max-width: 700px){
+@media (max-width: 780px){
     .header-nav-container{
         display: inline;  
     }
