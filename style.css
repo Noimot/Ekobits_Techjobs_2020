@@ -482,12 +482,8 @@ ul.nav-flex li{
 
 .speaker-info-and-topics{
     display: flex;
-    flex-direction: column-reverse;
-    width:70%;
+    flex-direction: column;
+    width:80%;
 }
-.table-container{
-    max-width: 70%;
-}
-
 
 }
