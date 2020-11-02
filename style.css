@@ -445,8 +445,13 @@ fieldset{
 
 @media (max-width: 700px){
     .header-nav-container{
-        background-color: yellow;
         display: inline;  
     }
-    .nav
+    .conf-date-and-city{
+        margin: 0 3px;
+    }
+    .conf-date-and-city{
+        margin: 20px 0 10px 0;
+        text-align: right;
+     }
 }
