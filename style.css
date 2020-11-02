@@ -442,3 +442,9 @@ fieldset{
         background: #77a198;
 }
   
+@media (max-width: 600px){
+    .header-nav-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
