@@ -442,17 +442,11 @@ fieldset{
         background: #77a198;
 }
   
-<<<<<<< HEAD
-@media (max-width: 600px){
-    .header-nav-container{
-=======
 
 @media (max-width: 700px){
     .header-nav-container{
-        background-color: gray;
-        font: 10px/px Helvetica, Arial, sans-serif;
->>>>>>> 93cdeca8de3fe03c708570195281ef1c350760f6
-        display: flex;
-        flex-direction: column;
+        background-color: yellow;
+        display: inline;  
     }
+    .nav
 }
