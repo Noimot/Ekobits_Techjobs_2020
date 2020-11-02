@@ -486,4 +486,16 @@ ul.nav-flex li{
     width:80%;
 }
 
+
+.venue-theatre, .venue-hotel{
+    display: flex;
+    flex-direction: column;
+}
+
+.register-row{
+    display: flex;
+    flex-direction: column;
+}
+
+
 }
