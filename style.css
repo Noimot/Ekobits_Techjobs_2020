@@ -485,6 +485,9 @@ ul.nav-flex li{
     flex-direction: column-reverse;
     width:70%;
 }
+.table-container{
+    max-width: 70%;
+}
 
 
 }
