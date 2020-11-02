@@ -479,10 +479,12 @@ fieldset{
 ul.nav-flex li{
     margin: 0 5px;
  }
- section.images-in-row{
-    display: flex;
-    flex-direction: column;
 
+.speaker-info-and-topics{
+    display: flex;
+    flex-direction: column-reverse;
+    width:100%;
 }
+
 
 }
