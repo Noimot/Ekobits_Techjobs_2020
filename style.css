@@ -479,5 +479,10 @@ fieldset{
 ul.nav-flex li{
     margin: 0 5px;
  }
+ section.images-in-row{
+    display: flex;
+    flex-direction: column;
+
+}
 
 }
