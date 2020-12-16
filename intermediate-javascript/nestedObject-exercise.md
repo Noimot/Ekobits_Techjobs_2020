@@ -20,11 +20,6 @@ let nestedData = {
 
 ```
 
-- 
-- 
-- 
-- 
-- 
 
 ###### Answer - Using a for loop, console.log all of the numbers in the primeNumbers array.
 ```
