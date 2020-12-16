@@ -177,10 +177,10 @@ return evenNumbers;
 displayEvenNumbers();
 
 ```
-- The i++ in the loop should not have a ;
+- The i++ in the loop should not have a semicolon (;) 
 - In the if conditional statement, an equality operator should be used in place of the assignment operator
 - Using "i<numbers.length-1" inside the loop won't return the last element in the array. instead, use 'i<numbers.length'
-- Using "evenNumbers.push(i) will keep pushing the value of i in the new array instead of the even numbers in the array. so evenNumbers.push(numbers[i]) should be used
-- the return statement should be placed out the for loop block
+- Using "evenNumbers.push(i) will keep pushing the value of i in the new array instead of the even numbers in the array. so evenNumbers.push(numbers[i]) should be use
+- the return statement should be placed outside the for loop block
 - if (numbers%2=0) should be if (numbers[i]%2===0)
 - There shoukdn't be a ; after the if condition

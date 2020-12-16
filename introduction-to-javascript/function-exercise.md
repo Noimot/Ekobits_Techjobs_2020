@@ -85,8 +85,8 @@
         function multipleLetterCount(str){
             let stringObject={};
             for(let eachLetter of str){
-                if(str.toLowerCase().include(eachLetter)){
-                    stringObject[eachLetter]=+1
+                if(stringObject[eachLetter]){
+                    stringObject[eachLetter]+=1
                 }
                 else{
                     stringObject[eachLetter]=1;
