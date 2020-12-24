@@ -35,23 +35,31 @@
 #####  Write the code necessary to do the following:
 
 ######  Select the section with an id of container without using querySelector.
+```
+let container = document.getElementById("container");
 
-` let container = document.getElementById("container");
+```
 
 
 ###### Select the section with an id of container using querySelector.
+```
+let container = document.querySelector("#container");
 
-` let container = document.querySelector("#container");
+```
 
 
 ###### Select all of the list items with a class of "second".
+```
+let listItems = document.querySelectorAll(".second");
 
-` let listItems = document.querySelectorAll(".second");
+```
 
 
 ###### Select a list item with a class of third, but only the list item inside of the ol tag.
+```
+let li = document.querySelector("ol> .third");
 
-` let li = document.querySelector("ol> .third");
+```
 
 
 ###### Give the section with an id of container the text "Hello!".
@@ -71,17 +79,24 @@ footerDiv.classList.add("main");
 
 
 ###### Remove the class main on the div with a class of footer.
+```
+footerDiv.classList.remove("main");
 
-` footerDiv.classList.remove("main");
+```
+
 
 ###### Create a new li element.
+```
+let newLi = document.createElement("li");
 
-` let newLi = document.createElement("li");
+```
 
 
 ###### Give the li the text "four".
+```
+ newLi.innerText = "four";
 
-` newLi.innerText = "four";
+```
 
 
 ###### Append the li to the ul element.
@@ -102,5 +117,7 @@ for(let i =0; i<li.length; i++){
 
 
 ###### Remove the div with a class of footer.
+```
+footerDiv.remove();
 
-` footerDiv.remove();
+```
