@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax practise</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        section.container {
+            width: 100%;
+            max-width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            background: linear-gradient(#ccc, #ff3);
+            align-items: center;
+        }
+
+        .div-container {
+            text-align: center;
+            border: 2px solid #000;
+            width: 700px;
+            max-width: 100%;
+            height: 50vh;
+
+        }
+
+        .form-div {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+    <button id="button">submit</button>
+    <div id="displayText"></div>
+    -->
+
+    <!--API Design - giphy party-->
+    <section class="container">
+        <div class="div-container">
+            <h1>GIPHY PARTY</h1>
+            <div class="form-div">
+                <form class="form" action="#">
+                    <input class="input" type="text" placeholder="Enter a search term">
+                    <button class="Search-giphy">Search Giphy!</button>
+                </form>
+                <button class="remove-images">Remove Images</button>
+            </div>
+            <div class="giphy-collage"></div>
+        </div>
+    </section>
+
+
+    <script>
+        const key = "2KxsUUxlN3qOIYoLtO95UCH4K0dbo8q0";
+        let form = document.querySelector(".form");
+        let input = document.querySelector(".input");
+        let button = document.querySelector(".button")
+        let giphyCollage = document.querySelector(".giphy-collage")
+
+        form.addEventListener("submit", hilariousGiphy)
+        function hilariousGiphy() {
+            fetch("https://api.giphy.com/v1/gifs/search?q=hilarious&rating=g&api_key=dc6zaTOxFJmzC")
+                .then(function (res) {
+                    return res.json()
+                })
+                .then(function (data) {
+                    let output = "";
+                    //  console.log(data["data"]);
+                    for (let i = 0; i < data["data"].length; i++) {
+                        console.log(data["data"][i]["url"])
+                        output += `
+                     <img src=${data["data"][i]["url"]}>
+                      `;
+                    }
+                    giphyCollage.innerHTML = output;
+                })
+        }
+
+    </script>
