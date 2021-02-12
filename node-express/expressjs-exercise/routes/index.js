@@ -6,7 +6,7 @@ let shoppingList = ["Clothes", "Shoes", "Handbag", "Headscarf"];
 var item = 0;
 
 router
-.route("")
+.route("/")
 .get((req, res) => {
     return res.json(shoppingList)
 })
@@ -18,16 +18,16 @@ router
 router
 .route("/:item")
 .get((req, res) => {
-    const listItem = shoppingList.find(val => val.item === Number(req.params.item))
+    const listItem = shoppingList.find(val => val === Number(req.params.item))
     return res.json(listItem)
 })
 .patch((req, res) => {
-    const listItem = shoppingList.find(val => val.item === Number(req.params.item))
+    const listItem = shoppingList.find(val => val === Number(req.params.item))
     listItem.item = req.body.item;
     return res.json({ message: "updated"})
 })
 .delete((req, res) => {
-    const listIndex = shoppingList.findIndex(val => val.item === Number(req.params.item))
+    const listIndex = shoppingList.findIndex(val => val === Number(req.params.item))
     shoppingList.splice(listIndex, 1);
     return res.json({ message: "Deleted"})
 });

@@ -5,10 +5,10 @@ const app = express();
 const shoppingRoutes = require("./routes")
 
 app.use(bodyParser.json());
-app.use(shoppingRoutes);
+app.use("/shoppingList", shoppingRoutes);
 
 app.get("/", (req, res) => {
-    return res.json("Start with /shopping List")
+    return res.json("Start with /shoppingList")
 });
 
 app.listen(3000, () => {
